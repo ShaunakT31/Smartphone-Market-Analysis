@@ -174,17 +174,19 @@ Value-for-money was calculated as:
 
 ---
 
-## 📜 License
 
-This project is open-source and available under the **MIT License**.
-
----
 
 ## 👨‍💻 Author
 
 **Shaunak Torgatti**  
 Data Analyst 
 
-Contact : 
-[LinkedIn](www.linkedin.com/in/shaunaktorgatti) or via GitHub discussions.
-Email - shaunakht@gmail.com
+## Contact
+
+For questions, collaborations, or feedback:
+
+**Shaunak Torgatti**  
+Email: shaunakht@gmail.com  
+LinkedIn: [www.linkedin.com/in/shaunaktorgatti](https://www.linkedin.com/in/shaunaktorgatti)
+
+---
