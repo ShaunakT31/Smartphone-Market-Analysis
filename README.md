@@ -32,7 +32,7 @@ The dataset was **web-scraped from Flipkart** using Selenium and BeautifulSoup, 
 ## 📁 Folder Structure
 
 ```bash
-Mobile_Phones_Analysis/
+Smartphone_Market_Analysis/
 │
 ├─ scrapers/                # Brand-specific Flipkart scrapers (Jupyter Notebooks)
 │   ├─ realme_scraper.ipynb
@@ -110,12 +110,12 @@ Value-for-money was calculated as:
 
 | Notebook | Focus Area |
 |-----------|-------------|
-| `01_market_landscape_segment_dominance.ipynb` | Market overview and price segmentation |
-| `02_brand_dominance_across_segments.ipynb` | Brand share by price range |
-| `03_price_spec_correlation.ipynb` | Correlations between specs and price |
-| `04_brand_spec_bias.ipynb` | How brands prioritize specs differently |
-| `05_hardware_value_index.ipynb` | Value-for-money analysis using composite score |
-| `06_flagship_inflation_diminishing_returns.ipynb` | Decline in value efficiency at premium tiers |
+| `01_Market_Landscape_Segment_Dominance.ipynb` | Market overview and price segmentation |
+| `02_Brand_Dominance_Across_Segments.ipynb` | Brand share by price range |
+| `03_Price_Spec_Correlation.ipynb` | Correlations between specs and price |
+| `04_Brand_Spec_Bias.ipynb` | How brands prioritize specs differently |
+| `05_Hardware_Value_Index.ipynb` | Value-for-money analysis using composite score |
+| `06_Flagship_Inflation.ipynb` | Decline in value efficiency at premium tiers |
 
 ---
 
@@ -123,8 +123,8 @@ Value-for-money was calculated as:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/smartphone_market_analysis.git
-   cd smartphone_market_analysis
+   git clone https://github.com/ShaunakT31/Smartphone_Market_Analysis.git
+   cd Smartphone_Market_Analysis
    ```
 
 2. **Install dependencies**
@@ -182,6 +182,9 @@ This project is open-source and available under the **MIT License**.
 
 ## 👨‍💻 Author
 
-**Shaun**  
-Aspiring Data Analyst | Python, Data Visualization, and Market Analytics Enthusiast  
-📧 Reach me on [LinkedIn](https://www.linkedin.com/) or via GitHub discussions.
+**Shaunak Torgatti**  
+Data Analyst 
+
+Contact : 
+[LinkedIn](www.linkedin.com/in/shaunaktorgatti) or via GitHub discussions.
+Email - shaunakht@gmail.com
