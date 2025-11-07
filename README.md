@@ -6,6 +6,7 @@
 
 ## 🚀 Project Overview
 This project analyzes the **5G smartphone market in India** to uncover:
+
 - Which brands dominate various price segments  
 - How specifications (RAM, storage, camera, etc.) scale with price  
 - Which models offer the **best value for money**  
@@ -30,24 +31,24 @@ The dataset was **web-scraped from Flipkart** using Selenium and BeautifulSoup, 
 
 ## 📁 Folder Structure
 
-'''
+```
 Mobile_Phones_Analysis/
 │
-├─ analysis/ # PNG charts and visualizations
-│ └─ figures/
+├─ analysis/                # PNG charts and visualizations
+│   └─ figures/
 │
 ├─ data/
-│ ├─ raw/ # Scraped JSON dumps
-│ ├─ clean/ # Cleaned brand-level CSVs
-│ └─ processed/ # Final combined & scored dataset
+│   ├─ raw/                 # Scraped JSON dumps
+│   ├─ clean/               # Cleaned brand-level CSVs
+│   └─ processed/           # Final combined & scored dataset
 │
 ├─ pipeline/
-│ ├─ clean_data.py # Cleans all raw JSON files
-│ ├─ combine_data.py # Combines all cleaned CSVs
-│ └─ run_pipeline.py # Automates the full data flow
+│   ├─ clean_data.py        # Cleans all raw JSON files
+│   ├─ combine_data.py      # Combines all cleaned CSVs
+│   └─ run_pipeline.py      # Automates the full data flow
 │
 ├─ utils/
-│ └─ Scoring.py # Scoring logic (composite + value-per-rupee)
+│   └─ Scoring.py           # Scoring logic (composite + value-per-rupee)
 │
 ├─ 01_market_landscape_segment_dominance.ipynb
 ├─ 02_brand_dominance_across_segments.ipynb
@@ -56,8 +57,7 @@ Mobile_Phones_Analysis/
 ├─ 05_hardware_value_index.ipynb
 ├─ 06_flagship_inflation_diminishing_returns.ipynb
 └─ README.md
-'''
-
+```
 
 ---
 
@@ -118,3 +118,63 @@ Value-for-money was calculated as:
    ```bash
    git clone https://github.com/<your-username>/smartphone_market_analysis.git
    cd smartphone_market_analysis
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the full pipeline**
+   ```bash
+   python pipeline/run_pipeline.py
+   ```
+
+4. **Open and explore analysis notebooks**
+   ```bash
+   jupyter notebook
+   ```
+
+---
+
+## 📈 Example Output
+
+| Brand | Average Value per ₹100k | Interpretation |
+|--------|--------------------------|----------------|
+| Realme | 172.3 | Strong price-performance ratio |
+| Xiaomi | 162.4 | Balanced hardware value |
+| OnePlus | 149.0 | Premium performance at higher price tiers |
+| Samsung | 131.7 | Brand premium, lower raw value efficiency |
+
+---
+
+## 🧠 Learning Outcomes
+
+- Built a **reproducible data pipeline** using Python  
+- Practiced **ETL principles**: Extract → Transform → Load  
+- Performed **data cleaning and feature engineering** on real scraped data  
+- Applied **custom scoring and ranking logic**  
+- Communicated findings through **clear visualizations and summaries**
+
+---
+
+## 🪄 Future Enhancements
+
+- Add sentiment or review-based quality scoring  
+- Include Amazon or GSMArena data for cross-platform comparison  
+- Build an interactive dashboard (Streamlit / Power BI)  
+- Automate pipeline scheduling using cron or Airflow  
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Shaun**  
+Aspiring Data Analyst | Python, Data Visualization, and Market Analytics Enthusiast  
+📧 Reach me on [LinkedIn](https://www.linkedin.com/) or via GitHub discussions.
