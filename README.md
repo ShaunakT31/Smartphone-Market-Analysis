@@ -31,8 +31,17 @@ The dataset was **web-scraped from Flipkart** using Selenium and BeautifulSoup, 
 
 ## 📁 Folder Structure
 
-```
+```bash
 Mobile_Phones_Analysis/
+│
+├─ scrapers/                # Brand-specific Flipkart scrapers (Jupyter Notebooks)
+│   ├─ realme_scraper.ipynb
+│   ├─ xiaomi_scraper.ipynb
+│   ├─ oneplus_scraper.ipynb
+│   ├─ samsung_scraper.ipynb
+│   ├─ iqoo_scraper.ipynb
+│   ├─ oppo_scraper.ipynb
+│   └─ vivo_scraper.ipynb
 │
 ├─ analysis/                # PNG charts and visualizations
 │   └─ figures/
@@ -57,9 +66,7 @@ Mobile_Phones_Analysis/
 ├─ 05_hardware_value_index.ipynb
 ├─ 06_flagship_inflation_diminishing_returns.ipynb
 └─ README.md
-```
 
----
 
 ## 🔁 Data Pipeline Overview
 
